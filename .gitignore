@@ -1,0 +1,17 @@
+*.pyc
+*~
+*.kate-swp
+env.d
+*.db
+*.sql*
+export
+res
+media/*
+build/
+.idea/
+*.swp
+*.swa
+*.swo
+*.swn
+*.swm
+*.pid
