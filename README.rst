@@ -59,9 +59,9 @@ Quick Start
 
         `pip uninstall django-auto_rest`
 
-4. Go to your project_dir/app_dir , you can see auto_serializers.py, auto_views.py and auto_urls.py if models.py exists
+3. Go to your project_dir/app_dir , you can see auto_serializers.py, auto_views.py and auto_urls.py if models.py exists
    in your app else if models are present in models directory auto_rest creates serializers, views and urls in
    auto_serializers directory, auto_views directory and auto_urls directory respectively.
 
-5. Visit auto_serializers, auto_views and auto_urls to see the files created by auto_rest, and make changes if and as
+4. Visit auto_serializers, auto_views and auto_urls to see the files created by auto_rest, and make changes if and as
    required by your app.
