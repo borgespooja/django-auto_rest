@@ -16,24 +16,27 @@ Quick Start
 
     * In first try block add-
 
-        from auto_rest.views.auto_rest_generator import auto_rest_main
+        `from auto_rest.views.auto_rest_generator import auto_rest_main`
 
     * The above import may fail in your project so in "except ImportError" part handle this issue and add:
 
+        ```
         try:
             import auto_rest
         except ImportError:
             raise ImportError(
                 "Couldn't import auto_rest. Are you sure it's available in your project?"
             )
+        ```
 
     * Replace "execute_from_command_line(sys.argv)" with below code block::
 
+        ```
         if sys.argv[1] == 'auto_rest_generator':
             auto_rest_main()
         else:
             execute_from_command_line(sys.argv)
-
+        ```
 
 2. To use auto_rest app in your project, follow below instructions::
 
